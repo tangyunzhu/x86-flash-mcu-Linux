@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /home/seeed/Flash_GPIO_Firmware_Linux/
+python flash_samd21.py

@@ -1,0 +1,13 @@
+sleep 0.1
+device ATSAMD21G18
+sleep 0.2
+speed 1000
+sleep 0.2
+erase
+sleep 0.2
+loadfile Bootloader_D21.hex
+sleep 0.2
+rx 500
+sleep 0.1
+q
+qc

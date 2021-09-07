@@ -1,0 +1,4 @@
+#!/bin/bash
+port=$(python flash_samd21_2.py)
+echo $port
+./bossac -i -d --port=$port -U true -i -e -w -v ReComputer_GPIO.ino.bin -R
